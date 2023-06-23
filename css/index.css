@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    background-color: #ffffff;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+    background-color: #ffffff;
+    margin: auto;
+    text-align: center;
+}
+
+.h1Titulo{
+    background-color: #313538;
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    margin: -1px 0px 49px -2px;;
+    padding: 23px 0px 31px 10px;;
+
+}
+span{
+    text-shadow: 10px 10px 10px 10px #d6c1d8d8;
+    color: #d6c1d8;
+}
+
+.h1 {
+
+    background-color: #ffffff;
+    margin: 18px 94px 7px 111;
+    padding: 19px 28px 31px 31px; 
+
+}
+
+.h1 h1{
+   
+
+    color: #000000;
+    text-align: center;
+    font-size: 30px;
+    padding: 2px 24px -2px 31px;
+
+}
+
+.card{
+    margin: 1px 10px 10px 10px;
+    width: 608px;
+    display: inline-block;
+    text-align: center;
+    height: 420px;
+    background-color: #ffffff;
+    border-width: 5px;
+    padding: 10px 10px 10px 10px;
+    border-color: #31353857;
+    border-style: solid;
+}
+
+.card img{
+    width: 207px;
+    margin: 66px 10px 10px 10px;;
+    height: 60 px;
+    box-shadow: 10px 10px 10px 10px #31353842;
+}
+
+footer{
+    background-color: #313538;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    margin: 105px 0px -4px -2px;
+    padding: 28px 0px 31px 10px;
+}
