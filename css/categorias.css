@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    background-color: #ffffff;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main{
+    background-color: #ffffff;
+    
+}
+
+/* Parte de arriba */
+
+header{
+padding-top: 50px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 30px;
+background-color: #24282b;
+border-bottom-color:#502e4f ;
+border-style: solid;
+
+}
+
+
+nav ol li {
+    float: right;
+    color: #cca3c5;
+    list-style: none;
+    display: inline;
+    margin: 20px;
+    margin-left: 6px;
+    margin-right: 44px;
+    margin-top: -18px;
+    margin-bottom: 21px;
+}
+a{
+    color: #f5bef3;
+    outline: none;
+    text-decoration: none;
+      
+}
+a:hover{
+    color:#ffc9fd
+}
+
+
+header h2{
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600%;
+    margin-left: 104px ;
+    margin-top: -22px;
+    border-bottom: 10px;
+    border-color: #2e25257c;
+    size: 500 px;
+    color: rgb(255, 255, 255);
+     
+}
+span{
+    color: #975995;
+}
+
+h3{
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300%;
+    margin: -43px 204px 55px 937px;
+    padding: -70px 10px 10px 10px;
+    border-color: #2e25257c;
+    size: 100 px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+
+.producto img {
+    width: 385px;
+    height: 318px;
+    margin: -26px 659px 55px 32px;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+}
+
+.Apartadoh1   {
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300%;
+    margin: 24px 25px 55px 31px;
+    size: 300 px;
+    border-color: #502e4f6d;
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+.Apartadoh1 h2 {
+
+    padding: -70px 10px 10px 10px;
+    margin: 123px 328px 55px 925px;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300%;
+    border-color: #502e4f; 
+    size: 300 px;
+    color: #975995;
+    text-align: center;
+}
+
+
+.Apartadoh1 p {
+
+    padding: -70px 10px 10px 10px;
+    margin: -31px 328px 55px 898px;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300%;
+    border-color: #502e4f; 
+    size: 300 px;
+    color: #975995;
+    text-align: center;
+}
+
+
+/* Footer: */
+
+footer{
+    position: relative;
+    padding-top: 22px;
+    padding-left: -48px;
+    padding-right: -10px;
+    padding-bottom: 30px;
+    margin: 3078px 2px -4px -2px;
+    background-color: #000000;
+
+}
+
+footer p{
+
+    color: #d08bcd;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 19px 737px 10px 10px;
+
+}
