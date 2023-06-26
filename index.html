@@ -5,34 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda</title>
-    <link rel="stylesheet" href="./css/index.css"></link>
+    <link rel="stylesheet" href="css/index.css"></link>
 </head>
+<body> 
+<main>
 
-<body>
+<header>
+    <h2>Bienvenido a la <span>Tienda</span></h2>
+    <nav>
+        <ol>
+        <li><a href="categorias.html">Ir a Categorías</a></li>
+
+    </ol>
+    </nav>
+
+</header>
+
+<div class="container">
+    <nav id="carrito">
+    <div class="imgH"><img src="/source/carrito.png">
+    <div class="buy-card">
+        <ul class="nav-card">
+            <li>Imagen</li>
+            <li>Nombre</li>
+            <li></li>
+        </ul>
+        <div class="lista_de_cursos">
+        </div>
+        <button>Vaciar Carrito</button>
+    </div>
+    </div>
     
-<div class="wrapper">
-<h1 class="h1Titulo">¡Bienvenido a las <span>Categorias!</span></h1>
+    
+    </nav>
+    </div>
+
+ <div class="productosT" id="lista-cursos">
+    
+    <div class="items">
+    <img src="source/arandanos.jpg">
+    <div class="H3"><h3>Arandanos</h3> </div>
+    <div class="precio"><p>$ 5,000</p></div>
+    <button class="agregar-carrito" data-id="1">Agregar al Carrito</button>
+    </div>
+
+    <div class="items">
+    <img src="source/candyFlour.jpg">
+    <div class="H3"><h3>Candee Fluff</h3> </div>
+    <div class="precio"><p>$ 10,000</p></div>
+    <button class="agregar-carrito" data-id="2">Agregar al Carrito</button>
+    </div>
+
+    <div class="items">
+    <img src="source/mentasduo.jpg">
+    <div class="H3"><h3>Mentas Duo</h3></div>
+    <div class="precio"><p>$ 3,000</p></div>
+    <button class="agregar-carrito" data-id="3">Agregar al Carrito</button>
+    </div>
+
+    <div class="items"><img src="source/chicle.jpg">
+    <div class="H3"><h3>Chicle Tres Paquetes</h3></div>
+    <button class="agregar-carrito" data-id="4">Agregar al Carrito</button>
+    <div class="precio"><p>$ 2,500</p></div>
+    </div>
+
+    <div class="items"><img src="source/cartucheraAmplia.jpg">
+    <div class="H3"><h3>Kit Escolar Básico</h3></div>
+    <div class="precio"><p>$ 25,000</p></div>
+    <button class="agregar-carrito" data-id="5">Agregar al Carrito</button>
+    </div>
+
+    <div class="items"><img src="source/cartucheraCereza.jpg">
+    <div class="H3"><h3>Cartuchera Cereza</h3> </div>
+    <div class="precio"><p>$ 5,500</p></div>
+    <button class="agregar-carrito" data-id="6">Agregar al Carrito</button>
+    </div>
+
+ </div>
+
+ 
 
 
-<div class="card"><img src="./source/arandanos.jpg"></div>
-<div class="h1"><h1>Arandanos</h1></div>
-<div class="card"><img src="./source/candyFlour.jpg"></div>
-<div class="h1"><h1>Dulce "Candee Fluff"</h1></div>
-<div class="card"><img src="./source/mentasduo.jpg"></div>
-<div class="h1"><h1>Mentas duo</h1></div>
-<div class="card"><img src="./source/chicle.jpg"></div>
-<div class="h1"><h1>Chicle Wubba Tres Unidades</h1></div>
-
-
-<div class="card"><img src="./source/cartucheraAmplia.jpg"></div>
-<div class="h1"><h1>Kit Básico Escuela</h1></div>
-<div class="card"><img src="./source/cartucheraCereza.jpg"></div>
-<div class="h1"><h1>Cartuchera Cereza Tema</h1></div>
 </div>
 
 <footer>
-    <div>Tienda Actividad</div>
+    <p> Actividad Tienda / Mariángel Quiceno Largo</p>
 </footer>
+
+</main>
+<script src="carrito.js"></script>
 
 </body>
 </html>
+

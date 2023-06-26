@@ -13,69 +13,249 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.wrapper{
+main{
     background-color: #ffffff;
-    margin: auto;
-    text-align: center;
+    
 }
 
-.h1Titulo{
-    background-color: #313538;
-    color: #ffffff;
-    text-align: center;
-    font-size: 50px;
-    margin: -1px 0px 49px -2px;;
-    padding: 23px 0px 31px 10px;;
+/* Parte de arriba */
 
+header{
+padding-top: 50px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 30px;
+background-color: #000000;
+border-bottom-color:#502e4f ;
+border-style: solid;
+
+}
+
+
+nav ol li {
+    float: right;
+    color: #cca3c5;
+    list-style: none;
+    display: inline;
+    margin: 20px;
+    margin-left: 6px;
+    margin-right: 44px;
+    margin-top: -18px;
+    margin-bottom: 21px;
+}
+a{
+    color: #f5bef3;
+    outline: none;
+    text-decoration: none;
+      
+}
+a:hover{
+    color:#ffc9fd
+}
+
+
+header h2{
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600%;
+    margin-left: 104px ;
+    margin-top: -22px;
+    border-bottom: 10px;
+    border-color: #2e25257c;
+    size: 500 px;
+    color: rgb(255, 255, 255);
+     
 }
 span{
-    text-shadow: 10px 10px 10px 10px #d6c1d8d8;
-    color: #d6c1d8;
+    color: #975995;
 }
 
-.h1 {
-
-    background-color: #ffffff;
-    margin: 18px 94px 7px 111;
-    padding: 19px 28px 31px 31px; 
-
+header img{
+    width: 133px;
+    height: 75px;
+    margin: -222px 62px 23px 784px;
+    padding: -70px 10px 10px 10px;
 }
 
-.h1 h1{
-   
+.nav-card li{
+    color: rgb(117, 54, 114);
+    list-style:   none;
+    padding-left: 3px;
+}
 
-    color: #000000;
-    text-align: center;
+.nav-card{
+    display: none;
+}
+
+.container nav button{
+    display: none;
+}
+
+.container nav .imgH:hover > .buy-card{
+    width: 400px;
+    height: 800px;
+    position: absolute;
+    margin: 50px 62px 23px 784px;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    transition: 4s;
+}
+
+.container nav .imgH:hover .nav-card{
     font-size: 30px;
-    padding: 2px 24px -2px 31px;
-
+    width: 100%;
+    color:#502e4f;
+    display: flex;
+    margin: 0 10px 0 10px;
+    justify-content:space-around ;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.card{
-    margin: 1px 10px 10px 10px;
-    width: 608px;
-    display: inline-block;
+
+
+h3{
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300%;
+    margin: -205px 300px 5px 1265px;
+    padding: -70px 10px 10px 10px;
+    border-color: #2e25257c;
+    size: 100 px;
+    color: rgb(0, 0, 0);
     text-align: center;
-    height: 420px;
-    background-color: #ffffff;
-    border-width: 5px;
-    padding: 10px 10px 10px 10px;
-    border-color: #31353857;
-    border-style: solid;
 }
 
-.card img{
-    width: 207px;
-    margin: 66px 10px 10px 10px;;
-    height: 60 px;
-    box-shadow: 10px 10px 10px 10px #31353842;
+.imgH img{
+    width: 95px;
+    height: 64px;
+    margin: 13px 2px -39px 799px;
 }
+
+.producto img {
+    width: 408px;
+    height: 330px;
+    margin: 63px 659px 55px 32px;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+}
+
+.productosT img {
+    width: 408px;
+    height: 330px;
+    margin: 63px 2px -39px 799px;
+    padding: 10px 10px 10px 10px;
+    float: left;
+}
+
+.productosT .precio p{
+    
+        float: left;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300%;
+        margin: -177px 198px 4px 1269px;
+        padding: -70px 10px 10px 10px;
+        border-color: #2e25257c;
+        size: 100 px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    
+}
+
+.items button{
+    margin: -27px 495px -77px 734px;
+    padding: 1rem;
+    background-color: #24282b;
+    border: none;
+    color: #ffffff;
+    border-radius: 3px;
+
+}
+
+.items button:hover{
+    background-color: #502e4f;
+    transition: all .3s;
+}
+
+
+h2 {
+
+    padding: -70px 10px 10px 10px;
+    margin: 123px 328px 55px 925px;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300%;
+    border-color: #502e4f; 
+    size: 300 px;
+    color: #975995;
+    text-align: center;
+}
+
+
+
+/* Footer: */
 
 footer{
-    background-color: #313538;
-    color: #ffffff;
-    text-align: center;
-    font-size: 25px;
-    margin: 105px 0px -4px -2px;
-    padding: 28px 0px 31px 10px;
+    position: relative;
+    padding-top: 22px;
+    padding-left: -48px;
+    padding-right: -10px;
+    padding-bottom: 30px;
+    margin: 80px 2px -4px -2px;
+    background-color: #000000;
+
 }
+
+footer p{
+
+    color: #d08bcd;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 19px 737px 10px 10px;
+
+}
+
+/* lista  */
+
+.lista_de_cursos div {
+    display: none;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+.container nav .imgH:hover .lista_de_cursos div {
+    display: flex;
+    
+}
+
+
+
+.lista_de_cursos img{
+    width: 100px;
+    height: 100px;
+    margin: 22px 62px 23px 4px;
+}
+
+.lista_de_cursos p {
+    color: #000000;
+    width: 100px;
+    font-size: 30px;
+    margin: 22px 62px 23px 24px;
+}
+
+.lista_de_cursos{
+    width: 20px;
+    height: 20px;
+}
+
+.lista_de_cursos p:nth-child(3){
+    padding-left: 3px;
+}
+
+.lista_de_cursos p:last-child span{
+    background-color: #000000;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 10px auto;
+    color: white;
+}
+
